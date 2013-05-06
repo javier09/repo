@@ -14,7 +14,7 @@
 int main(void) {
 	FILE* arch;
 	arch=fopen("arch","a+");
-	fprintf(arch,"!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	fprintf(arch,"hola github"); /* prints !!!Hello World!!! */
 	close(arch);
 	return EXIT_SUCCESS;
 }
